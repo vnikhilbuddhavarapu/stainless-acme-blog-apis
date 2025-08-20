@@ -42,15 +42,15 @@ If you’d like to use the repository from source, you can either install from g
 To install via git:
 
 ```sh
-$ npm install git+ssh://git@github.com:stainless-sdks/acme-blog-typescript.git
+$ npm install git+ssh://git@github.com:vnikhilbuddhavarapu/stainless-acme-blog-apis.git
 ```
 
 Alternatively, to link a local copy of the repo:
 
 ```sh
 # Clone
-$ git clone https://www.github.com/stainless-sdks/acme-blog-typescript
-$ cd acme-blog-typescript
+$ git clone https://www.github.com/vnikhilbuddhavarapu/stainless-acme-blog-apis
+$ cd stainless-acme-blog-apis
 
 # With yarn
 $ yarn link
