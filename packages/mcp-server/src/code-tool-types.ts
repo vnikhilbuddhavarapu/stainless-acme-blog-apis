@@ -1,6 +1,6 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-import { type ClientOptions } from 'acme-blog/client';
+import { ClientOptions } from 'acme-blog';
 
 export type WorkerInput = {
   opts: ClientOptions;
