@@ -5,8 +5,8 @@
   "compilerOptions": {
     "rootDir": "./dist/src",
     "paths": {
-      "acme-blog/*": ["dist/src/*"],
-      "acme-blog": ["dist/src/index.ts"]
+      "acme-blog/*": ["./dist/src/*"],
+      "acme-blog": ["./dist/src/index.ts"]
     },
     "noEmit": false,
     "declaration": true,
