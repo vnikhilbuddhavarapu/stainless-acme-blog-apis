@@ -1,0 +1,41 @@
+{
+  "dxt_version": "0.2",
+  "name": "acme-blog-mcp",
+  "version": "0.0.2",
+  "description": "The official MCP Server for the Acme Blog API",
+  "author": {
+    "name": "Acme Blog"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vnikhilbuddhavarapu/stainless-acme-blog-apis.git"
+  },
+  "homepage": "https://github.com/vnikhilbuddhavarapu/stainless-acme-blog-apis/tree/main/packages/mcp-server#readme",
+  "server": {
+    "type": "node",
+    "entry_point": "index.js",
+    "mcp_config": {
+      "command": "node",
+      "args": ["${__dirname}/index.js"],
+      "env": {
+        "ACME_BLOG_API_KEY": "${user_config.ACME_BLOG_API_KEY}"
+      }
+    }
+  },
+  "user_config": {
+    "ACME_BLOG_API_KEY": {
+      "title": "api_key",
+      "description": "",
+      "required": true,
+      "type": "string"
+    }
+  },
+  "tools": [],
+  "tools_generated": true,
+  "compatibility": {
+    "runtimes": {
+      "node": ">=18.0.0"
+    }
+  },
+  "keywords": ["api"]
+}
